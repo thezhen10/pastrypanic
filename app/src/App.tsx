@@ -2,7 +2,6 @@ import {
   Box,
   ChakraProvider,
   Grid,
-  Image,
   Tab,
   TabList,
   TabPanel,
