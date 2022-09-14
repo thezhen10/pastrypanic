@@ -65,4 +65,11 @@ export const en = {
     para4:
       'Each pastry requires a different sequence of actions. You can read the recipe book to find out!',
   },
+  [namespaces.pages.controller]: {
+	para0: 'A breakdown of the controller mechanisms.  The entire controller is fabricated using a laser-cutter, with a 3d-printer for the handles.',
+	para1: 'Detection of inputs is done through a single webcam for both sides (through the help of some mirrors), so no other electrical components are needed.',
+	para2: 'The slider input mechanism was created with Shape Haptics, a development tool for rapidly designing and fabricating haptic mechanisms, allowing each input to have haptic feedback designed specifically for its’ action.',
+	para3: 'Each slider can have a different feeling, and even the overall “stiffness” of the mechanism can be changed.',
+	para4: 'More info about Shape Haptics here:'
+  }
 }
