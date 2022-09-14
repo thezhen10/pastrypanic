@@ -12,7 +12,6 @@ export const AboutContent = (): JSX.Element => {
     <Box>
       <Text>{t('para0')}</Text>
       <Image maxW="50%" src={about1} />
-
       <Text>
         Pastry Panic (with cat) is an arcade style game with a physical
         controller that experiments with physicalizing mechanics through
