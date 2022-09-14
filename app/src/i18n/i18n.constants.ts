@@ -1,6 +1,9 @@
 export const namespaces = {
   pages: {
-    hello: 'pages.hello',
+    about: 'pages.about',
+    howto: 'pages.howto',
+    controller: 'pages.controller',
+    team: 'pages.team',
   },
   common: 'common',
 }

@@ -21,7 +21,7 @@ import { namespaces } from './i18n/i18n.constants'
 import { TeamPanel } from './TeamPanel'
 
 export function App() {
-  const { t, i18n } = useTranslation(namespaces.pages.hello)
+  const { t, i18n } = useTranslation()
   function changeLanguage(e: any) {
     i18n.changeLanguage(e.target.value)
   }

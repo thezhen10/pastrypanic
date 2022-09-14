@@ -1,17 +1,16 @@
 import { Box, Image, Link, Text } from '@chakra-ui/react'
+import { useTranslation } from 'react-i18next'
 import about1 from './assets/about/about1.jpg'
 import about2 from './assets/about/about2.png'
 import about3 from './assets/about/about3.png'
+import { namespaces } from './i18n/i18n.constants'
 
 export const AboutContent = (): JSX.Element => {
+  const { t } = useTranslation(namespaces.pages.about)
+
   return (
     <Box>
-      <Text>
-        An arcade style alt.ctrl game with a haptic and physical twist! Also
-        comes with a lazy cat. Try to make as much pastry as possible with a
-        controller that challenges your ability to manage multiple input
-        sliders, each with different haptic feedback.
-      </Text>
+      <Text>{t('para0')}</Text>
       <Image maxW="50%" src={about1} />
 
       <Text>
