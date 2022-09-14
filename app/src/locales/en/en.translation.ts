@@ -27,5 +27,18 @@ export const en = {
     footer:
       'Designed and developed by Yong Zhen Zhou, with support from Clement Zheng and the Keio-NUS CUTE Center',
   },
-  [namespaces.pages.howto]: {},
+  [namespaces.pages.howto]: {
+	para0: 'Make as much pastry as possible before time runs out! 2 pastries will appear at a time. Complete pastries to earn points and aim for a high score.',
+	para1: 'There are 2 slots on the controller for the left and right conveyor belts.',
+	para2: 'Move the sliders between the slots to do actions to make the pastries',
+	inputs: 'INPUTS:',
+	para3: 'There are 5 input sliders for 5 different actions - cut, knead, fill, sprinkle, and bake.',
+	cut: 'CUT - Press once to cut',
+	knead: 'KNEAD - Press repeatedly to knead',
+	fill: 'FILL - Press and hold down to fill. Release before it overfills though!',
+	sprinkle: 'SPRINKLE – Move the shaker up and down to sprinkle, if you press too far it will break!',
+	bake: 'BAKE – Press the oven and it will lock into place. Remember to take it out!',
+	recipes: 'RECIPES:',
+	para4: 'Each pastry requires a different sequence of actions. You can read the recipe book to find out!'
+  },
 }
