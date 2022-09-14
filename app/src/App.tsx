@@ -1,5 +1,7 @@
 import {
+  Box,
   ChakraProvider,
+  Flex,
   Grid,
   Select,
   Tab,
@@ -16,6 +18,7 @@ import { ControllerPanel } from './ControllerPanel'
 import { HowToPlayPanel } from './HowToPlayPanel'
 import { useTranslation } from 'react-i18next'
 import { namespaces } from './i18n/i18n.constants'
+import { TeamPanel } from './TeamPanel'
 
 export function App() {
   const { t, i18n } = useTranslation(namespaces.pages.hello)
@@ -26,16 +29,24 @@ export function App() {
   return (
     <ChakraProvider theme={theme}>
       <Grid textAlign="center" fontSize="xl">
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <Select onChange={changeLanguage} variant="filled" size={'md'}>
-          <option value="en">🇬🇧 English</option>
-          <option value="jp">🇯🇵 日本語</option>
-        </Select>
+        <Flex flexDirection={'row'} justifySelf="flex-end">
+          <ColorModeSwitcher mr={'0.5rem'} />
+          <Select
+            onChange={changeLanguage}
+            variant="filled"
+            size={'md'}
+            width={'8rem'}
+          >
+            <option value="en">🇬🇧 English</option>
+            <option value="jp">🇯🇵 日本語</option>
+          </Select>
+        </Flex>
         <Tabs variant="solid-rounded" colorScheme="blue" align="center">
           <TabList>
             <Tab fontSize={'2rem'}>About</Tab>
             <Tab fontSize={'2rem'}>How To Play</Tab>
             <Tab fontSize={'2rem'}>Controller</Tab>
+            <Tab fontSize={'2rem'}>Team</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
@@ -47,6 +58,11 @@ export function App() {
             <TabPanel>
               <Text>
                 <ControllerPanel />
+              </Text>
+            </TabPanel>
+            <TabPanel>
+              <Text>
+                <TeamPanel />
               </Text>
             </TabPanel>
           </TabPanels>
