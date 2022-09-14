@@ -1,7 +1,8 @@
 import i18next, { i18n as i18nInstance } from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import { languages } from './i18n.constants'
-import { jp, en } from './i18n.translations'
+import { jp } from '../locales/jp/jp.translation'
+import { en } from '../locales/en/en.translation'
 
 // ref: https://github.com/Lemoncode/i18next-example-typescript
 
