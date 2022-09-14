@@ -36,7 +36,7 @@ export const en = {
     boothhead: 'On-site and Booth Production Support',
     boothbody: 'Yong Kai Yi\n Daniel Lok\nAaron Pang\nLam Minghan',
     webhead: 'Website',
-    webbody: 'Yong Kai Yi',
+    webbody: 'Yong Kai Yi\nDaniel Lok',
     jphead: 'Japanese Localisation',
     jpbody: 'Lam Minghan',
     recipehead: 'Recipe Book Graphics and Layout',
