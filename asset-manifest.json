@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/pastrypanic/static/js/main.6ebb59a8.js",
+    "main.js": "/pastrypanic/static/js/main.e75433aa.js",
     "static/js/787.c1112931.chunk.js": "/pastrypanic/static/js/787.c1112931.chunk.js",
     "static/media/about2.png": "/pastrypanic/static/media/about2.63e4964b9a6f6cc945eb.png",
     "static/media/overview.png": "/pastrypanic/static/media/overview.27f66b509a437bb5e7df.png",
@@ -9,10 +9,10 @@
     "static/media/about3.png": "/pastrypanic/static/media/about3.93fb595a81ac08ac3b07.png",
     "static/media/title_splash.png": "/pastrypanic/static/media/title_splash.d8558fad5bd49013ddd4.png",
     "index.html": "/pastrypanic/index.html",
-    "main.6ebb59a8.js.map": "/pastrypanic/static/js/main.6ebb59a8.js.map",
+    "main.e75433aa.js.map": "/pastrypanic/static/js/main.e75433aa.js.map",
     "787.c1112931.chunk.js.map": "/pastrypanic/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6ebb59a8.js"
+    "static/js/main.e75433aa.js"
   ]
 }
